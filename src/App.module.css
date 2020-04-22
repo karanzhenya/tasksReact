@@ -1,0 +1,51 @@
+.socialpage {
+    display: flex;
+    align-items: flex-end;
+    width: 550px;
+    height: 150px;
+    justify-content: space-around;
+}
+
+.message {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    width: 430px;
+    height: 70px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: lightblue;
+}
+
+
+.message:before {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    top: 130px;
+    left: 60px;
+    height: 20px;
+    border-left: 25px solid white;
+    border-bottom-right-radius: 10px 14px;
+}
+
+.message:after {
+    content: "";
+    position: absolute;
+    top: 130px;
+    left: 65px;
+    width: 30px;
+    height: 20px;
+    background: lightblue;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    display: flex;
+    align-items: flex-end;
+}
+
