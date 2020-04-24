@@ -12,7 +12,7 @@
     padding-right: 10px;
     justify-content: space-between;
     width: 430px;
-    height: 70px;
+    height: 110px;
     border-radius: 10px 10px 10px 10px;
     background-color: lightblue;
 }
@@ -48,4 +48,5 @@
     display: flex;
     align-items: flex-end;
 }
+
 

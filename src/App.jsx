@@ -4,9 +4,14 @@ import Avatar from './avatar/Avatar.jsx';
 import Name from './name/Name.jsx';
 import Time from './time/Time.jsx';
 import Message from "./Message/Message";
+import Character from "./Character/Character";
 
-const App = () => {
+
+
+const App = (props) => {
+
     return (
+        <div className={style.page}>
         <div className={style.socialpage}>
             <Avatar/>
             <div className={style.message}>
@@ -15,9 +20,11 @@ const App = () => {
                     <Message/>
                 </div>
                 <div className={style.time}>
-                    <Time/>
+                    <Time />
                 </div>
             </div>
+        </div>
+            <Character/>
         </div>
     );
 }
